@@ -7,13 +7,21 @@
 	"features": {
 		"ghcr.io/r3dpoint/devcontainer-features/tailwindcss-standalone-cli:1": {},
 		"ghcr.io/devcontainers-extra/features/caddy:1": {}
-	}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"matthewpi.caddyfile-support",
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [443]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
