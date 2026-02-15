@@ -12,7 +12,8 @@
 		"vscode": {
 			"extensions": [
 				"matthewpi.caddyfile-support",
-				"bradlc.vscode-tailwindcss"
+				"bradlc.vscode-tailwindcss",
+				"Anthropic.claude-code"
 			]
 		}
 	},

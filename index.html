@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Hello, world!</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Vincent Roberson's Personal Website" />
-  <link rel="icon" href="favicon.png">
-  <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8" />
+    <title>Vincent's Personal Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Vincent Roberson's Personal Website" />
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="styles/output-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div id="contact">
-        <img src="" id="image-of-me"/>
-        <address id="my-city">Chico, CA</address>
+<body class="bg-[#FFFAF0]">
+    <div id="contact" class="flex flex-col items-center justify-center min-h-screen text-center">
+        <p class="text-5xl font-['EB+Garamond']">
+            Vincent Roberson
+        </p>
+        <img 
+        src="./assets/PXL_20260110_182416808.RAW-01.MP.COVER (1).jpg" 
+        id="image-of-me"
+        class="max-w-[15%] h-auto mt-4 mb-4"
+        />
+        <address id="my-city" class="mb-4 font-['EB+Garamond']">
+            Chico, CA - For School
+        </address>
         <ul id="professional-contacts">
-            <a href="https://github.com/bincent0929" id="github">
+            <a target="_blank" href="https://github.com/bincent0929" id="github">
                 <button>Github</button>
             </a>
-            <a href="mailto:vincentr@varmail.org" id="email">
+            <a target="_blank" href="mailto:vincentr@varmail.org" id="email">
                 <button>Email</button>
             </a>
-            <a href="www.linkedin.com/in/vincentr929" id="linkedin">
+            <a target="_blank" href="https://www.linkedin.com/in/vincentr929" id="linkedin">
                 <button>LinkedIn</button>
             </a>
         </ul>
         <ul id="social-contacts">
-            <a href="https://x.com/VincentR929" id="x">
+            <a target="_blank" href="https://x.com/VincentR929" id="x">
                 <button>X</button>
             </a>
-            <a href="https://www.instagram.com/vinro929/" id="instagram">
+            <a target="_blank" href="https://www.instagram.com/vinro929/" id="instagram">
                 <button>Instagram</button>
             </a>
         </ul>
-        <p>
-            If you don't already know why you want to 
-            get ahold of me, keep scrolling to learn why!
-        </p>
+        <div class="mt-4 font-['EB+Garamond']">
+            <p class="max-w-sm text-3xl">
+                If you don't already know <i>why</i> you want to 
+                get ahold of me, keep scrolling to <b>learn why</b>!
+            </p>
+        </div>
     </div>
 </body>
 </html>
