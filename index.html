@@ -13,17 +13,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body class="bg-[#FFFAF0]">
-    <div id="contact" class="flex flex-col items-center justify-center min-h-screen text-center">
-        <p class="text-5xl font-['EB_Garamond']">
+    <div id="contact-and-about" class="flex flex-col items-center justify-center min-h-screen text-center">
+        <p class="text-5xl font-['EB_Garamond'] mb-4">
             Vincent Roberson
         </p>
-        <img 
-        src="./assets/me-and-my-dog.jpg" 
-        id="image-of-me"
-        alt="Picture of me and my dog"
-        class="max-w-[35%] sm:max-w-[25%] md:max-w-[25%] lg:max-w-[15%]  h-auto mt-4 mb-4"
-        />
+        
+        <figure class="flex flex-col items-center mb-4">
+            <img 
+            src="./assets/me-and-my-dog.jpg" 
+            id="image-of-me"
+            alt="Picture of me and my dog"
+            class="max-w-[55%] sm:max-w-[45%] md:max-w-[35%] lg:max-w-[25%] h-auto rounded-lg"
+            />
+            <figcaption class="text-sm text-gray-500 italic mt-1">That's Hank back there :)</figcaption>
+        </figure>
+        
+        
+        <div id="contact" class="mb-4">
+            <h2 class="text-2xl font-['EB_Garamond'] max-w-sm">
+                    Pick any of these to get ahold of me or check me out:
+            </h2>
+            <div id="contact-buttons" class="fa-2xl inline-block p-1 border-2 border-solid rounded-lg">
+                <ul id="professional-contacts">
+                    <a target="_blank" href="https://github.com/bincent0929" id="github">
+                        <i class="fa-brands fa-github hover:text-gray-600"></i>
+                    </a>
+                    <a target="_blank" href="mailto:vincentr@varmail.org" id="email">
+                        <i class="fa-solid fa-envelope hover:text-gray-600"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/vincentr929" id="linkedin">
+                        <i class="fa-brands fa-linkedin hover:text-gray-600"></i>
+                    </a>
+                </ul>
+                <ul id="social-contacts">
+                    <a target="_blank" href="https://x.com/VincentR929" id="x">
+                        <i class="fa-brands fa-x-twitter hover:text-gray-600"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/vinro929/" id="instagram">
+                        <i class="fa-brands fa-instagram hover:text-gray-600"></i>
+                    </a>
+                    <a target="_blank" href="https://discord.com/users/262075516608053249" id="instagram">
+                        <i class="fa-brands fa-discord hover:text-gray-600"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        
+        <div class=" font-['EB_Garamond']">
+            <p class="max-w-sm text-2xl mb-4">
+                If you don't already know <i>why</i> you want to
+                get ahold of me, keep scrolling to <b>learn why</b>!
+            </p>
+        </div>
+        <i class="mb-4 text-3xl text-gray-500 hover:text-gray-800 fa-solid fa-chevron-down"></i>
+        
         <div id="where-i-am" class="mb-4 font-['EB_Garamond']">
+            <h2 class="text-2xl">
+                Where I'm at:
+            </h2>
             <address id="current-city">
                 Chico, CA - For School
             </address>
@@ -31,38 +78,15 @@
                 Redding, CA - Hometown
             </address>
         </div>
-        <div id="contact-buttons" class="fa-xl">
-            <ul id="professional-contacts">
-                <a target="_blank" href="https://github.com/bincent0929" id="github">
-                    <i class="fa-brands fa-github hover:text-gray-600"></i>
-                </a>
-                <a target="_blank" href="mailto:vincentr@varmail.org" id="email">
-                    <i class="fa-solid fa-envelope hover:text-gray-600"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/vincentr929" id="linkedin">
-                    <i class="fa-brands fa-linkedin hover:text-gray-600"></i>
-                </a>
-            </ul>
-            <ul id="social-contacts">
-                <a target="_blank" href="https://x.com/VincentR929" id="x">
-                    <i class="fa-brands fa-x-twitter hover:text-gray-600"></i>
-                </a>
-                <a target="_blank" href="https://www.instagram.com/vinro929/" id="instagram">
-                    <i class="fa-brands fa-instagram hover:text-gray-600"></i>
-                </a>
-                <a target="_blank" href="https://discord.com/users/262075516608053249" id="instagram">
-                    <i class="fa-brands fa-discord hover:text-gray-600"></i>
-                </a>
-            </ul>
-        </div>
-        <div class="mt-4 font-['EB_Garamond']">
-            <p class="max-w-sm text-2xl">
-                If you don't already know <i>why</i> you want to
-                get ahold of me, keep scrolling to <b>learn why</b>!
+
+        <div id="what-i-am-doing" class="max-w-sm mb-4 font-['EB_Garamond']">
+            <p>
+                I'm currently going to school to get a Bachelor's degree in Computer Science at Chico State.
             </p>
         </div>
-        <i class="mt-8 text-3xl text-gray-500 hover:text-gray-800 fa-solid fa-chevron-down"></i>
-        <p class="mt-4 font-['EB_Garamond']">...this is still a work in progress...&#128513;</p>
+
+        
+        <p class="font-['EB_Garamond']">...this is still a work in progress...&#128513;</p>
     </div>
 </body>
 </html>
