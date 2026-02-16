@@ -261,6 +261,21 @@
   .bg-\[\#FFFAF0\] {
     background-color: #FFFAF0;
   }
+  .bg-\[url\(\'\.\.\/assets\/me-diving-into-pool\.jpg\'\)\] {
+    background-image: url('../assets/me-diving-into-pool.jpg');
+  }
+  .bg-\[url\(\'\.\/assets\/me-diving-into-pool\'\)\] {
+    background-image: url('./assets/me-diving-into-pool');
+  }
+  .bg-\[url\(\'\.\/assets\/me-diving-into-pool\.jpg\'\)\] {
+    background-image: url('./assets/me-diving-into-pool.jpg');
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
   .text-center {
     text-align: center;
   }
